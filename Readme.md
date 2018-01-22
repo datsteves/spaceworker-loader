@@ -12,6 +12,8 @@ yarn add --dev spaceworker-loader
 
 ## Usage
 
+import '/spaceworker.js' into your html file :)
+
 ```javascript
 // app.js
 const worker = require("./iss.worker.js")
