@@ -1,0 +1,26 @@
+{
+  "name": "spaceworker-loader",
+  "version": "1.0.1",
+  "description": "spaceworker.js loader for webpack: make webworker even easier.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint exmaple src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "author": "Steffen Meyer @datsteves",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datsteves/spaceworker-loader.git"
+  },
+  "peerDependencies": {
+    "webpack": "^2.0.0 || ^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
